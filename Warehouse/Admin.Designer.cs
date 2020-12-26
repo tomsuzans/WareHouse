@@ -30,16 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nosaukums = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Tips = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Daudzums = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cena = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.iDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nosaukumsDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tipsDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.daudzumsDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cenaDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.precesBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.noliktavaDataSet = new eksamens.noliktavaDataSet();
             this.precesBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
@@ -47,12 +37,6 @@
             this.precesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.aptiekaDataSet = new eksamens.noliktava();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nosaukumsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tipsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.daudzumsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cenaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.klientsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pardotsBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.pardotsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -76,6 +60,17 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nosaukums = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Tips = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Daudzums = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cena = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nosaukumsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tipsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.daudzumsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cenaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.klientsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.precesBindingSource2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.noliktavaDataSet)).BeginInit();
@@ -98,12 +93,7 @@
             this.Nosaukums,
             this.Tips,
             this.Daudzums,
-            this.Cena,
-            this.iDDataGridViewTextBoxColumn1,
-            this.nosaukumsDataGridViewTextBoxColumn1,
-            this.tipsDataGridViewTextBoxColumn1,
-            this.daudzumsDataGridViewTextBoxColumn1,
-            this.cenaDataGridViewTextBoxColumn1});
+            this.Cena});
             this.dataGridView1.DataSource = this.precesBindingSource2;
             this.dataGridView1.Location = new System.Drawing.Point(25, 47);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
@@ -114,71 +104,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(1356, 284);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // ID
-            // 
-            this.ID.DataPropertyName = "ID";
-            this.ID.HeaderText = "ID";
-            this.ID.MinimumWidth = 6;
-            this.ID.Name = "ID";
-            // 
-            // Nosaukums
-            // 
-            this.Nosaukums.DataPropertyName = "Nosaukums";
-            this.Nosaukums.HeaderText = "Nosaukums";
-            this.Nosaukums.MinimumWidth = 6;
-            this.Nosaukums.Name = "Nosaukums";
-            // 
-            // Tips
-            // 
-            this.Tips.DataPropertyName = "Tips";
-            this.Tips.HeaderText = "Tips";
-            this.Tips.MinimumWidth = 6;
-            this.Tips.Name = "Tips";
-            // 
-            // Daudzums
-            // 
-            this.Daudzums.DataPropertyName = "Daudzums";
-            this.Daudzums.HeaderText = "Daudzums";
-            this.Daudzums.MinimumWidth = 6;
-            this.Daudzums.Name = "Daudzums";
-            // 
-            // Cena
-            // 
-            this.Cena.DataPropertyName = "Cena";
-            this.Cena.HeaderText = "Cena";
-            this.Cena.MinimumWidth = 6;
-            this.Cena.Name = "Cena";
-            // 
-            // iDDataGridViewTextBoxColumn1
-            // 
-            this.iDDataGridViewTextBoxColumn1.DataPropertyName = "ID";
-            this.iDDataGridViewTextBoxColumn1.HeaderText = "ID";
-            this.iDDataGridViewTextBoxColumn1.Name = "iDDataGridViewTextBoxColumn1";
-            // 
-            // nosaukumsDataGridViewTextBoxColumn1
-            // 
-            this.nosaukumsDataGridViewTextBoxColumn1.DataPropertyName = "Nosaukums";
-            this.nosaukumsDataGridViewTextBoxColumn1.HeaderText = "Nosaukums";
-            this.nosaukumsDataGridViewTextBoxColumn1.Name = "nosaukumsDataGridViewTextBoxColumn1";
-            // 
-            // tipsDataGridViewTextBoxColumn1
-            // 
-            this.tipsDataGridViewTextBoxColumn1.DataPropertyName = "Tips";
-            this.tipsDataGridViewTextBoxColumn1.HeaderText = "Tips";
-            this.tipsDataGridViewTextBoxColumn1.Name = "tipsDataGridViewTextBoxColumn1";
-            // 
-            // daudzumsDataGridViewTextBoxColumn1
-            // 
-            this.daudzumsDataGridViewTextBoxColumn1.DataPropertyName = "Daudzums";
-            this.daudzumsDataGridViewTextBoxColumn1.HeaderText = "Daudzums";
-            this.daudzumsDataGridViewTextBoxColumn1.Name = "daudzumsDataGridViewTextBoxColumn1";
-            // 
-            // cenaDataGridViewTextBoxColumn1
-            // 
-            this.cenaDataGridViewTextBoxColumn1.DataPropertyName = "Cena";
-            this.cenaDataGridViewTextBoxColumn1.HeaderText = "Cena";
-            this.cenaDataGridViewTextBoxColumn1.Name = "cenaDataGridViewTextBoxColumn1";
             // 
             // precesBindingSource2
             // 
@@ -231,48 +156,6 @@
             this.dataGridView2.RowTemplate.Height = 24;
             this.dataGridView2.Size = new System.Drawing.Size(1353, 303);
             this.dataGridView2.TabIndex = 1;
-            // 
-            // iDDataGridViewTextBoxColumn
-            // 
-            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
-            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.iDDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
-            // 
-            // nosaukumsDataGridViewTextBoxColumn
-            // 
-            this.nosaukumsDataGridViewTextBoxColumn.DataPropertyName = "Nosaukums";
-            this.nosaukumsDataGridViewTextBoxColumn.HeaderText = "Nosaukums";
-            this.nosaukumsDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.nosaukumsDataGridViewTextBoxColumn.Name = "nosaukumsDataGridViewTextBoxColumn";
-            // 
-            // tipsDataGridViewTextBoxColumn
-            // 
-            this.tipsDataGridViewTextBoxColumn.DataPropertyName = "Tips";
-            this.tipsDataGridViewTextBoxColumn.HeaderText = "Tips";
-            this.tipsDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.tipsDataGridViewTextBoxColumn.Name = "tipsDataGridViewTextBoxColumn";
-            // 
-            // daudzumsDataGridViewTextBoxColumn
-            // 
-            this.daudzumsDataGridViewTextBoxColumn.DataPropertyName = "Daudzums";
-            this.daudzumsDataGridViewTextBoxColumn.HeaderText = "Daudzums";
-            this.daudzumsDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.daudzumsDataGridViewTextBoxColumn.Name = "daudzumsDataGridViewTextBoxColumn";
-            // 
-            // cenaDataGridViewTextBoxColumn
-            // 
-            this.cenaDataGridViewTextBoxColumn.DataPropertyName = "Cena";
-            this.cenaDataGridViewTextBoxColumn.HeaderText = "Cena";
-            this.cenaDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.cenaDataGridViewTextBoxColumn.Name = "cenaDataGridViewTextBoxColumn";
-            // 
-            // klientsDataGridViewTextBoxColumn
-            // 
-            this.klientsDataGridViewTextBoxColumn.DataPropertyName = "Klients";
-            this.klientsDataGridViewTextBoxColumn.HeaderText = "Klients";
-            this.klientsDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.klientsDataGridViewTextBoxColumn.Name = "klientsDataGridViewTextBoxColumn";
             // 
             // pardotsBindingSource1
             // 
@@ -463,6 +346,94 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // ID
+            // 
+            this.ID.DataPropertyName = "ID";
+            this.ID.FillWeight = 79.93713F;
+            this.ID.HeaderText = "ID";
+            this.ID.MinimumWidth = 6;
+            this.ID.Name = "ID";
+            // 
+            // Nosaukums
+            // 
+            this.Nosaukums.DataPropertyName = "Nosaukums";
+            this.Nosaukums.FillWeight = 144.0534F;
+            this.Nosaukums.HeaderText = "Nosaukums";
+            this.Nosaukums.MinimumWidth = 6;
+            this.Nosaukums.Name = "Nosaukums";
+            // 
+            // Tips
+            // 
+            this.Tips.DataPropertyName = "Tips";
+            this.Tips.FillWeight = 144.0534F;
+            this.Tips.HeaderText = "Tips";
+            this.Tips.MinimumWidth = 6;
+            this.Tips.Name = "Tips";
+            // 
+            // Daudzums
+            // 
+            this.Daudzums.DataPropertyName = "Daudzums";
+            this.Daudzums.FillWeight = 71.0424F;
+            this.Daudzums.HeaderText = "Daudzums";
+            this.Daudzums.MinimumWidth = 6;
+            this.Daudzums.Name = "Daudzums";
+            // 
+            // Cena
+            // 
+            this.Cena.DataPropertyName = "Cena";
+            this.Cena.FillWeight = 60.9137F;
+            this.Cena.HeaderText = "Cena";
+            this.Cena.MinimumWidth = 6;
+            this.Cena.Name = "Cena";
+            // 
+            // iDDataGridViewTextBoxColumn
+            // 
+            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
+            this.iDDataGridViewTextBoxColumn.FillWeight = 84.11979F;
+            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
+            this.iDDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
+            // 
+            // nosaukumsDataGridViewTextBoxColumn
+            // 
+            this.nosaukumsDataGridViewTextBoxColumn.DataPropertyName = "Nosaukums";
+            this.nosaukumsDataGridViewTextBoxColumn.FillWeight = 121.2727F;
+            this.nosaukumsDataGridViewTextBoxColumn.HeaderText = "Nosaukums";
+            this.nosaukumsDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.nosaukumsDataGridViewTextBoxColumn.Name = "nosaukumsDataGridViewTextBoxColumn";
+            // 
+            // tipsDataGridViewTextBoxColumn
+            // 
+            this.tipsDataGridViewTextBoxColumn.DataPropertyName = "Tips";
+            this.tipsDataGridViewTextBoxColumn.FillWeight = 121.2727F;
+            this.tipsDataGridViewTextBoxColumn.HeaderText = "Tips";
+            this.tipsDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.tipsDataGridViewTextBoxColumn.Name = "tipsDataGridViewTextBoxColumn";
+            // 
+            // daudzumsDataGridViewTextBoxColumn
+            // 
+            this.daudzumsDataGridViewTextBoxColumn.DataPropertyName = "Daudzums";
+            this.daudzumsDataGridViewTextBoxColumn.FillWeight = 78.96563F;
+            this.daudzumsDataGridViewTextBoxColumn.HeaderText = "Daudzums";
+            this.daudzumsDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.daudzumsDataGridViewTextBoxColumn.Name = "daudzumsDataGridViewTextBoxColumn";
+            // 
+            // cenaDataGridViewTextBoxColumn
+            // 
+            this.cenaDataGridViewTextBoxColumn.DataPropertyName = "Cena";
+            this.cenaDataGridViewTextBoxColumn.FillWeight = 73.09644F;
+            this.cenaDataGridViewTextBoxColumn.HeaderText = "Cena";
+            this.cenaDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.cenaDataGridViewTextBoxColumn.Name = "cenaDataGridViewTextBoxColumn";
+            // 
+            // klientsDataGridViewTextBoxColumn
+            // 
+            this.klientsDataGridViewTextBoxColumn.DataPropertyName = "Klients";
+            this.klientsDataGridViewTextBoxColumn.FillWeight = 121.2727F;
+            this.klientsDataGridViewTextBoxColumn.HeaderText = "Klients";
+            this.klientsDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.klientsDataGridViewTextBoxColumn.Name = "klientsDataGridViewTextBoxColumn";
+            // 
             // Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -535,6 +506,11 @@
         private noliktavaDataSetTableAdapters.PrecesTableAdapter precesTableAdapter2;
         private System.Windows.Forms.BindingSource pardotsBindingSource1;
         private noliktavaDataSetTableAdapters.PardotsTableAdapter pardotsTableAdapter1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nosaukums;
         private System.Windows.Forms.DataGridViewTextBoxColumn Tips;
@@ -546,15 +522,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn daudzumsDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn cenaDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn klientsDataGridViewTextBoxColumn;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nosaukumsDataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tipsDataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn daudzumsDataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cenaDataGridViewTextBoxColumn1;
     }
 }

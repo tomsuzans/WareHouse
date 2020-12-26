@@ -30,11 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nosaukums = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Tips = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Daudzums = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cena = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.precesBindingSource4 = new System.Windows.Forms.BindingSource(this.components);
             this.noliktavaDataSet = new eksamens.noliktavaDataSet();
             this.precesBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
@@ -55,11 +50,11 @@
             this.precesTableAdapter2 = new eksamens.noliktavaDataSetTableAdapters.PrecesTableAdapter();
             this.precesBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nosaukumsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tipsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.daudzumsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cenaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nosaukums = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Tips = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Daudzums = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cena = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.precesBindingSource4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.noliktavaDataSet)).BeginInit();
@@ -82,15 +77,10 @@
             this.Nosaukums,
             this.Tips,
             this.Daudzums,
-            this.Cena,
-            this.iDDataGridViewTextBoxColumn,
-            this.nosaukumsDataGridViewTextBoxColumn,
-            this.tipsDataGridViewTextBoxColumn,
-            this.daudzumsDataGridViewTextBoxColumn,
-            this.cenaDataGridViewTextBoxColumn});
+            this.Cena});
             this.dataGridView1.DataSource = this.precesBindingSource4;
             this.dataGridView1.Location = new System.Drawing.Point(36, 27);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersVisible = false;
@@ -98,46 +88,6 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(1231, 411);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // ID
-            // 
-            this.ID.DataPropertyName = "ID";
-            this.ID.HeaderText = "ID";
-            this.ID.MinimumWidth = 6;
-            this.ID.Name = "ID";
-            this.ID.ReadOnly = true;
-            // 
-            // Nosaukums
-            // 
-            this.Nosaukums.DataPropertyName = "Nosaukums";
-            this.Nosaukums.HeaderText = "Nosaukums";
-            this.Nosaukums.MinimumWidth = 6;
-            this.Nosaukums.Name = "Nosaukums";
-            this.Nosaukums.ReadOnly = true;
-            // 
-            // Tips
-            // 
-            this.Tips.DataPropertyName = "Tips";
-            this.Tips.HeaderText = "Tips";
-            this.Tips.MinimumWidth = 6;
-            this.Tips.Name = "Tips";
-            this.Tips.ReadOnly = true;
-            // 
-            // Daudzums
-            // 
-            this.Daudzums.DataPropertyName = "Daudzums";
-            this.Daudzums.HeaderText = "Daudzums";
-            this.Daudzums.MinimumWidth = 6;
-            this.Daudzums.Name = "Daudzums";
-            this.Daudzums.ReadOnly = true;
-            // 
-            // Cena
-            // 
-            this.Cena.DataPropertyName = "Cena";
-            this.Cena.HeaderText = "Cena";
-            this.Cena.MinimumWidth = 6;
-            this.Cena.Name = "Cena";
-            this.Cena.ReadOnly = true;
             // 
             // precesBindingSource4
             // 
@@ -162,7 +112,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(148, 471);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(76, 20);
             this.textBox3.TabIndex = 1;
@@ -171,7 +121,7 @@
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(228, 471);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(76, 20);
             this.textBox4.TabIndex = 2;
@@ -180,7 +130,7 @@
             // 
             this.button1.AutoSize = true;
             this.button1.Location = new System.Drawing.Point(307, 471);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(56, 23);
             this.button1.TabIndex = 3;
@@ -230,7 +180,7 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(36, 470);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(92, 21);
             this.comboBox1.TabIndex = 6;
@@ -270,46 +220,56 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.ForeColor = System.Drawing.SystemColors.Control;
             this.textBox1.Location = new System.Drawing.Point(11, 286);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(1, 13);
             this.textBox1.TabIndex = 8;
             // 
-            // iDDataGridViewTextBoxColumn
+            // ID
             // 
-            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
-            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
-            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
+            this.ID.DataPropertyName = "ID";
+            this.ID.FillWeight = 60.9137F;
+            this.ID.HeaderText = "ID";
+            this.ID.MinimumWidth = 6;
+            this.ID.Name = "ID";
+            this.ID.ReadOnly = true;
             // 
-            // nosaukumsDataGridViewTextBoxColumn
+            // Nosaukums
             // 
-            this.nosaukumsDataGridViewTextBoxColumn.DataPropertyName = "Nosaukums";
-            this.nosaukumsDataGridViewTextBoxColumn.HeaderText = "Nosaukums";
-            this.nosaukumsDataGridViewTextBoxColumn.Name = "nosaukumsDataGridViewTextBoxColumn";
-            this.nosaukumsDataGridViewTextBoxColumn.ReadOnly = true;
+            this.Nosaukums.DataPropertyName = "Nosaukums";
+            this.Nosaukums.FillWeight = 144.0534F;
+            this.Nosaukums.HeaderText = "Nosaukums";
+            this.Nosaukums.MinimumWidth = 6;
+            this.Nosaukums.Name = "Nosaukums";
+            this.Nosaukums.ReadOnly = true;
             // 
-            // tipsDataGridViewTextBoxColumn
+            // Tips
             // 
-            this.tipsDataGridViewTextBoxColumn.DataPropertyName = "Tips";
-            this.tipsDataGridViewTextBoxColumn.HeaderText = "Tips";
-            this.tipsDataGridViewTextBoxColumn.Name = "tipsDataGridViewTextBoxColumn";
-            this.tipsDataGridViewTextBoxColumn.ReadOnly = true;
+            this.Tips.DataPropertyName = "Tips";
+            this.Tips.FillWeight = 144.0534F;
+            this.Tips.HeaderText = "Tips";
+            this.Tips.MinimumWidth = 6;
+            this.Tips.Name = "Tips";
+            this.Tips.ReadOnly = true;
             // 
-            // daudzumsDataGridViewTextBoxColumn
+            // Daudzums
             // 
-            this.daudzumsDataGridViewTextBoxColumn.DataPropertyName = "Daudzums";
-            this.daudzumsDataGridViewTextBoxColumn.HeaderText = "Daudzums";
-            this.daudzumsDataGridViewTextBoxColumn.Name = "daudzumsDataGridViewTextBoxColumn";
-            this.daudzumsDataGridViewTextBoxColumn.ReadOnly = true;
+            this.Daudzums.DataPropertyName = "Daudzums";
+            this.Daudzums.FillWeight = 79.93713F;
+            this.Daudzums.HeaderText = "Daudzums";
+            this.Daudzums.MinimumWidth = 6;
+            this.Daudzums.Name = "Daudzums";
+            this.Daudzums.ReadOnly = true;
             // 
-            // cenaDataGridViewTextBoxColumn
+            // Cena
             // 
-            this.cenaDataGridViewTextBoxColumn.DataPropertyName = "Cena";
-            this.cenaDataGridViewTextBoxColumn.HeaderText = "Cena";
-            this.cenaDataGridViewTextBoxColumn.Name = "cenaDataGridViewTextBoxColumn";
-            this.cenaDataGridViewTextBoxColumn.ReadOnly = true;
+            this.Cena.DataPropertyName = "Cena";
+            this.Cena.FillWeight = 71.0424F;
+            this.Cena.HeaderText = "Cena";
+            this.Cena.MinimumWidth = 6;
+            this.Cena.Name = "Cena";
+            this.Cena.ReadOnly = true;
             // 
             // Manager
             // 
@@ -325,7 +285,7 @@
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.dataGridView1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Manager";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Parzinis";
@@ -366,17 +326,12 @@
         private System.Windows.Forms.BindingSource precesBindingSource2;
         private noliktavaDataSetTableAdapters.PrecesTableAdapter precesTableAdapter2;
         private System.Windows.Forms.BindingSource precesBindingSource3;
+        private System.Windows.Forms.BindingSource precesBindingSource4;
+        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nosaukums;
         private System.Windows.Forms.DataGridViewTextBoxColumn Tips;
         private System.Windows.Forms.DataGridViewTextBoxColumn Daudzums;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cena;
-        private System.Windows.Forms.BindingSource precesBindingSource4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nosaukumsDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tipsDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn daudzumsDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cenaDataGridViewTextBoxColumn;
     }
 }
