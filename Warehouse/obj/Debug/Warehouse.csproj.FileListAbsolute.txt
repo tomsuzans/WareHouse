@@ -22,3 +22,15 @@ C:\Users\JanisBerzins\source\repos\eksamens\Warehouse\obj\Debug\Warehouse.csproj
 C:\Users\JanisBerzins\source\repos\eksamens\Warehouse\obj\Debug\Warehouse.csproj.CoreCompileInputs.cache
 C:\Users\JanisBerzins\source\repos\eksamens\Warehouse\obj\Debug\eksamens.exe
 C:\Users\JanisBerzins\source\repos\eksamens\Warehouse\obj\Debug\eksamens.pdb
+C:\Users\JanisBerzins\Documents\GitHub\WareHouse\Warehouse\bin\Debug\eksamens.exe.config
+C:\Users\JanisBerzins\Documents\GitHub\WareHouse\Warehouse\bin\Debug\eksamens.exe
+C:\Users\JanisBerzins\Documents\GitHub\WareHouse\Warehouse\bin\Debug\eksamens.pdb
+C:\Users\JanisBerzins\Documents\GitHub\WareHouse\Warehouse\obj\Debug\Warehouse.csprojAssemblyReference.cache
+C:\Users\JanisBerzins\Documents\GitHub\WareHouse\Warehouse\obj\Debug\eksamens.Login.resources
+C:\Users\JanisBerzins\Documents\GitHub\WareHouse\Warehouse\obj\Debug\eksamens.Admin.resources
+C:\Users\JanisBerzins\Documents\GitHub\WareHouse\Warehouse\obj\Debug\eksamens.Manager.resources
+C:\Users\JanisBerzins\Documents\GitHub\WareHouse\Warehouse\obj\Debug\eksamens.Properties.Resources.resources
+C:\Users\JanisBerzins\Documents\GitHub\WareHouse\Warehouse\obj\Debug\Warehouse.csproj.GenerateResource.cache
+C:\Users\JanisBerzins\Documents\GitHub\WareHouse\Warehouse\obj\Debug\Warehouse.csproj.CoreCompileInputs.cache
+C:\Users\JanisBerzins\Documents\GitHub\WareHouse\Warehouse\obj\Debug\eksamens.exe
+C:\Users\JanisBerzins\Documents\GitHub\WareHouse\Warehouse\obj\Debug\eksamens.pdb
